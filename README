@@ -1,2 +1,2 @@
-$ repo init -u https://github.com/teamgummy/platform_manifest.git -b master
+$ repo init -u https://github.com/gannon5197/android_manifest -b aokp
 $ repo sync
