@@ -1,2 +1,2 @@
-$ repo init -u https://github.com/gannon5197/android_manifest -b aokp
+$ repo init -u https://github.com/gannon5197/manifest -b ics
 $ repo sync
