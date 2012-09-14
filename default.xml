@@ -9,9 +9,6 @@
            
   <remote  name="private"
            fetch="ssh://git@github.com" />
-
-  <remote  name="MTDEV-CM10"
-           fetch="git://github.com/MTDEV-CM10/" />
            
   <default revision="refs/heads/jellybean"
            remote="github" />
