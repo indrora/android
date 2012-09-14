@@ -16,8 +16,10 @@
   <project path="build" name="CyanogenMod/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  
+  <project path="android" name="MTDEV-CM10/android" />
 
-<project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
+  <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
   <project path="bionic" name="CyanogenMod/android_bionic" />
   <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
@@ -312,6 +314,4 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="vendor/cm" name="MTDEV-CM10/android_vendor_cm" />
   <project path="vendor/motorola/triumph" name="MTDEV-CM10/android_vendor_motorola_triumph" />
-
-  <project path="android" name="manifest" remote="MTDEV-CM10" revision="jellybean" />
 </manifest>
