@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="aosp"
-           fetch="https://android.googlesource.com/" />
 
-<remote  name="github"
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com" />
+
+  <remote  name="github"
            fetch=".."
            review="review.cyanogenmod.com" />
-           
+
   <remote  name="private"
            fetch="ssh://git@github.com" />
-           
+
   <default revision="refs/heads/jellybean"
            remote="github"
            sync-j="2" />
@@ -17,7 +18,7 @@
   <project path="build" name="CyanogenMod/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  
+
   <project path="android" name="MTDEV-CM10/android" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
@@ -149,6 +150,7 @@
   <project path="external/protobuf" name="CyanogenMod/android_external_protobuf" />
   <project path="external/qemu" name="CyanogenMod/android_external_qemu" />
   <project path="external/qemu-pc-bios" name="CyanogenMod/android_external_qemu-pc-bios" />
+  <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" />
   <project path="external/quake" name="CyanogenMod/android_external_quake" />
   <project path="external/regex-re2" name="CyanogenMod/android_external_regex-re2" />
   <project path="external/replicaisland" name="CyanogenMod/android_external_replicaisland" />
@@ -258,6 +260,7 @@
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" />
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" />
   <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" />
+  <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" />
   <project path="packages/apps/VideoEditor" name="CyanogenMod/android_packages_apps_VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" />
   <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" />
@@ -284,7 +287,7 @@
   <project path="pdk" name="CyanogenMod/android_pdk" />
   <project path="prebuilt" name="platform/prebuilt" remote="aosp" revision="jb-dev" />
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" remote="aosp" revision="jb-dev" />
- <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="CyanogenMod/android_prebuilts_gcc_darwin-x86_arm_arm-eabi-4.6" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="CyanogenMod/android_prebuilts_gcc_darwin-x86_arm_arm-eabi-4.6" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" remote="aosp" revision="jb-dev" />
   <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.4.3" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.4.3" remote="aosp" revision="jb-dev" />
   <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" remote="aosp" revision="jb-dev" />
