@@ -21,7 +21,7 @@
 
   <!-- MTDEV Android manifest -->
 
-  <project path="android" name="indrora/android" />
+  <project path="android" name="indrora/mtdev_cm10_android" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
   <project path="bionic" name="CyanogenMod/android_bionic" />
