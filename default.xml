@@ -345,7 +345,7 @@
   <project path="system/su" name="CyanogenMod/android_system_su" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="vendor/qcom/opensource/v8" name="CyanogenMod/android_vendor_qcom_opensource_v8" />
-  <!-- MTDEV has their own version of vendor/cm -- but we're testing the real thing. -->
+  <!-- Ugh. -->
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
   <!-- Vendor/motorola/triumph is magic -->
   <project path="vendor/motorola/triumph" name="MTDEV-CM10/android_vendor_motorola_triumph" />
